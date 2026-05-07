@@ -1,4 +1,6 @@
-import pygame, sys
+# pyrefly: ignore [missing-import]
+import pygame, sys  
+# pyrefly: ignore [missing-import]
 from pygame.locals import *
 from colors import *
 
@@ -22,9 +24,10 @@ def draw(picture):
   for i in range(0, n):
     parseLine(DISPLAY, i, img[i])
 
-  while True:
+  running = True
+  while running:
     for event in pygame.event.get():
       if event.type==QUIT:
-        pygame.quit()
-        #sys.exit()
+        running = False
     pygame.display.update()
+  pygame.quit()
