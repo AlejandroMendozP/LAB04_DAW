@@ -8,10 +8,10 @@
 
 [cite_start]Este repositorio contiene la implementación paso a paso de un **tablero de ajedrez funcional**En lugar de cargar una imagen estática, el tablero y sus piezas se construyen dinámicamente mediante código, utilizando una clase personalizada `Picture` y la librería gráfica `pygame` para el renderizado.
 
-### ✨ Características Principales
-* 🧩 **Programación Funcional y Estructurada:** Uso intensivo de herramientas nativas como `map`, `lambda`, `zip` y comprensión de listas
-* 🎨 **Separación de Intereses (Modelo - Vista):** Las estructuras de datos están claramente diferenciadas de la lógica de renderizado gráfico
-* 🏗️ **Transformaciones Gráficas:** Implementación de métodos para rotar, espejar (mirror), superponer e invertir colores de las figuras (piezas de ajedrez)
+### Características Principales
+*  **Programación Funcional y Estructurada:** Uso intensivo de herramientas nativas como `map`, `lambda`, `zip` y comprensión de listas
+*  **Separación de Intereses (Modelo - Vista):** Las estructuras de datos están claramente diferenciadas de la lógica de renderizado gráfico
+* **Transformaciones Gráficas:** Implementación de métodos para rotar, espejar (mirror), superponer e invertir colores de las figuras (piezas de ajedrez)
 
 ---
 
