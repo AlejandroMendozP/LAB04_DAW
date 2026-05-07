@@ -15,14 +15,22 @@
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+### Instalación y Configuración Rápida
 
-Para evitar conflictos de dependencias en tu sistema, este proyecto utiliza un entorno virtual (`venv`)]. Sigue estos pasos para correrlo en tu máquina:
+Copia y pega los siguientes comandos en tu terminal para clonar el repositorio, configurar el entorno virtual e instalar todas las dependencias necesarias de un solo golpe:
 
-### 1. Clonar el repositorio e ingresar a la carpeta
 ```bash
+# 1. Clonar el repositorio
 git clone [https://github.com/AlejandroMendozP/LAB04_DAW.git](https://github.com/AlejandroMendozP/LAB04_DAW.git)
+
+# 2. Ingresar a la carpeta del proyecto
 cd LAB04_DAW
-2. Crear el entorno virtual
-Bash
+
+# 3. Crear el entorno virtual
 python3 -m venv venv
+
+# 4. Activar el entorno virtual (Ubuntu / Linux / macOS)
+source venv/bin/activate
+
+# 5. Instalar las dependencias
+pip install pygame
